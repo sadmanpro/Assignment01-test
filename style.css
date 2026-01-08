@@ -62,9 +62,11 @@ body{
     font-weight:700;
     line-height:84px;
     max-width: 740px;
+    text-align: center;
 }
 .line1 span{
     color: #469165;
+    text-align: center;
 }
 
 .banner-text-container p{
