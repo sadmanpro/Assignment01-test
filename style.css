@@ -1,0 +1,269 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 120px;
+
+}
+
+.nav-logo{
+    
+}
+
+.middle-text{
+    max-width: 356px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.get-early-access-btn{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #469165;
+    color: white;
+    border-radius: 4px;
+    padding: 12.5px 16px;
+    text-align: center;
+}
+
+.banner{
+    background-image: url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    height: 674px;
+    background-size: cover;
+}
+.banner-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color
+}
+.banner-top-btn{
+    color: #469165;
+    font-size:16px;
+    background-color:white;
+    margin-top:123px;
+    padding: 8px 12px;
+    border-radius:20px;
+    display:flex;
+    gap:6px;
+    
+}
+.line1{
+    font-size: 72px;
+    color: white;
+    font-weight:700;
+    line-height:84px;
+    max-width: 740px;
+}
+.line1 span{
+    color: #469165;
+}
+
+.banner-text-container p{
+    max-width: 500px;
+    color: white;
+    text-align: center;
+}
+
+.banner-bottom-btn{
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+
+}
+.start-vault-btn{
+    color: white;
+    font-size: 16px;
+    padding: 16.5px 16px;
+    background-color: #469165;
+    border-radius: 4px;
+    display: flex;
+    gap: 10px;
+}
+.how-it-works-btn{
+    color: white;
+     font-size: 16px;
+    padding: 16.5px 16px;
+    border: 1px solid white;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+}
+#play-icon{
+    width: 20px;
+}
+.card-heading-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.card{
+   width: 322px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card-logo{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 30px;
+    
+    
+}
+.card-logo img{
+margin-top: 15px;}
+
+.card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    max-width: 210px;
+}
+.card-section{
+    text-align: center;
+}
+.card-section h1{
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.card-section p{
+    font-size: 16px;
+    color: #627382;
+    margin: 0;
+}
+
+/* section3 */
+
+
+.section-03{
+    height: 840px;
+    
+}
+.section-03-box{
+    display: flex;
+    margin: 0 120px;
+    align-items: center;
+    gap: 60px;
+}
+.section3-right{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+}
+#top-text{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+}
+.section3-right h1{
+    font-size: 48px;
+    font-weight: 700x;
+    color:#001931;
+    margin-bottom: 16px;
+}
+.section3-right-description{
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.section3-right-lines{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.checkcircle{
+    width: 20px;
+    height: 20px;
+}
+.above-footer{
+    background-color: #F7F6F2;
+    margin:  2px 120px 120px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 384px;
+    border-radius: 12px;
+}
+.above-footer h1, .above-footer p{
+    text-align: center;
+
+}
+.above-footer p{font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #627382;
+    border-radius: 4px;
+}
+.give-early-access-above-footer{
+      font-size: 16px;
+    font-weight: 600;
+    background-color: #469165;
+    color: white;
+    border-radius: 4px;
+    padding: 12.5px 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 52px;
+    width: 194px;
+
+}
+.footer{
+    margin: 0 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    background-color: #001931;
+    color: white;
+}
+.footer-line1{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 0 0 0;
+    align-items: center;
+    margin-right: 107px;
+}
+
+.footer-line2{
+    border-top: 1px solid #e5e7eb17;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.footer-line1 span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.social-icon{
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+
+}
